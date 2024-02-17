@@ -44,9 +44,9 @@ const ListEmployeeComponents = () => {
   //   }
   // ]
   //
-  function view(employee) {
-    console.log(employee);
-  }
+  // function view(employee) {
+  //   console.log(employee);
+  // }
 
   function addNewEmployee() {
     navigator('/add-employee')

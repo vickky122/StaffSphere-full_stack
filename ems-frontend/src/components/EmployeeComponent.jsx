@@ -16,18 +16,6 @@ const EmployeeComponent = () => {
     email: ''
   })
 
-  // function handleFirstName(e) {
-  //   setFirstName(e.target.value);
-  // }
-
-  // function handleLastName(e) {
-  //   setLastName(e.target.value);
-  // }
-
-  // function handleEmail(e) {
-  //   setEmail(e.target.value);
-  // }
-  //we can write it in the main form - onChange as it is
 
   const navigator = useNavigate();
 

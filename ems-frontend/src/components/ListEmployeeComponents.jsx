@@ -43,6 +43,10 @@ const ListEmployeeComponents = () => {
   //     "email": "vikky@gmai.com"
   //   }
   // ]
+  //
+  function view(employee) {
+    console.log(employee);
+  }
 
   function addNewEmployee() {
     navigator('/add-employee')

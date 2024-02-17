@@ -20,34 +20,6 @@ const ListEmployeeComponents = () => {
     })
   }
 
-
-
-
-  // const dummyData = [
-  //   {
-  //     "id": 1,
-  //     "firstName": "Vikrant",
-  //     "lastName": "Yadav",
-  //     "email": "vikrant@gmai.com"
-  //   },
-  //   {
-  //     "id": 2,
-  //     "firstName": "Mani",
-  //     "lastName": "Yadav",
-  //     "email": "mani@gmai.com"
-  //   },
-  //   {
-  //     "id": 1,
-  //     "firstName": "Vikky",
-  //     "lastName": "Yadav",
-  //     "email": "vikky@gmai.com"
-  //   }
-  // ]
-  //
-  // function view(employee) {
-  //   console.log(employee);
-  // }
-
   function addNewEmployee() {
     navigator('/add-employee')
   }

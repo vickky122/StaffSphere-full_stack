@@ -55,12 +55,7 @@ public class EmployeeController {
         return ResponseEntity.ok("Employee deleted successfully");
     }
 
-    // // build delete rest api
-    // @DeleteMapping("{id}")
-    // public ResponseEntity<String> deleteEmployee(@PathVariable("id") Long employeeId) {
-    //     employeeService.deleteEmployee(employeeId);
-    //     return ResponseEntity.ok("Employee deleted successfully");
-    // }
+   
 }
 
 
